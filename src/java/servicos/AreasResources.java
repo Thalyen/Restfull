@@ -56,7 +56,7 @@ public class AreasResources {
     }
 
     /**
-     * PUT method for updating or creating an instance of FilmesResources
+     * PUT method for updating or creating an instance of 
      *
      * @param content representation for the resource
      */
