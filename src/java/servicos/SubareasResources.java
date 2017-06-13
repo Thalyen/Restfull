@@ -26,7 +26,7 @@ import modelo.Subarea;
 public class SubareasResources{
 
     private List<Subarea> subareas;
-
+    private List<Subarea> subAreas;
     /**
      *
      * @Context private UriInfo context;
@@ -35,8 +35,8 @@ public class SubareasResources{
      */
     public SubareasResources() {
         subareas = new ArrayList<>();
-        subareas = new ArrayList<>();
-        subareas.add(new Subarea(0, 0, "Projeto 0"));
+        subAreas = new ArrayList<>();
+        subareas.add(new Subarea(0, 0, "Projeto 00"));
         subareas.add(new Subarea(1, 0, "Projeto 01"));
         subareas.add(new Subarea(2, 0, "Projeto 02"));
         subareas.add(new Subarea(3, 0, "Projeto 03"));
@@ -60,15 +60,19 @@ public class SubareasResources{
     @Path("{subareaId}")
     @GET
     @Produces("application/json")
-    public String getFilme(@PathParam("subareaId") String id) {
+    public String getSubAreas(@PathParam("subareaId") String id) {
         for (Subarea area : subareas) {
-            if (String.valueOf(area.getId()).equals(id)){
-                Gson gson = new Gson();
-                return gson.toJson(area);
+            if (String.valueOf(area.getIdArea()).equals(id)) {
+                subAreas.add(area);
             }
         }
-        return null;
+        if(subAreas.isEmpty() || subAreas.size() < 0){
+            return null;
+        }else{
+        Gson gson = new Gson();
+        return gson.toJson(subAreas);
     }
+ }
 
     /**
      * PUT method for updating or creating an instance of FilmesResources
