@@ -1,0 +1,122 @@
+[
+    {
+"id": "1",
+      "titulo": "e-Leitura",
+      "resumo": "A leitura é uma prática considerada importante para a formação de qualquer indivíduo, melhorando a construção do conhecimento e do senso crítico. Por isso deve ser incentivada não apenas no espaço familiar, mas tb nas escolas - lugar em que o aluno passa, diariamente, boa parte do seu tempo. Nas escolas, existem várias formas de incentivar essa prática como atividades, seminários, debates e projetos. Um deles é o Clube da Leitura, que funciona através de reuniões periódicas com o objetivo de discutir temas pertinentes sobre a leitura e livros diversos. É uma boa prática, mas enfrenta algumas limitações, como espaço e disponibilidade dos integrantes para as reuniões. Devido a isso, o presente projeto de pesquisa tem por objetivo a criação de um sistema Web que funcionará como um Clube da Leitura Virtual, chamado de e-Leitura, permitindo uma maior interação entre os leitores independe de local e horário, incentivando a continuidade da prática e aprendizagem coletiva.\n",
+      "edital": "edital 08/2015 - Desenvolvimento  de Projetos de Pesquisa/IFRN",
+      "ano": 2015,
+      "coordenador": "Bruno Gomes de Araujo",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Núcleo de Inovação em Computação",
+      "Campus": "CANG",
+      "periodo": "De 21/07/2015 a 20/04/2016"
+   },
+   {
+"id": "2",
+      "titulo": "Uma abordagem de monitoramento consciente de práticas sustentáveis no âmbito do campus Natal-Zona Norte do IFRN (Etapa 2)",
+      "resumo": "Este projeto consiste no desenvolvimento de uma ferramenta que servirá de suporte para a segunda parte de uma pesquisa aplicada a ser realizada no campus Natal-Zona Norte, cujo objetivo é avaliar o impacto da utilização de recursos tecnológicos no combate ao desperdício de energia e recursos naturais. A ideia é desenvolver um aplicativo móvel, utilizando a ferramenta AppInventor, que possibilite aos alunos, professores e membros da comunidade escolar como um todo, registrar situações de desperdícios de recursos no campus, a partir do registro fotográficos desses fatos, e gerar alertas nas redes sociais e notificações aos setores competentes. Cada fato de desperdício identificado, será registrado e um alerta gerado para conscientizar os demais de forma reduzir a recorrências dessas práticas. Com isso, espera-se fomentar uma maior educação ambiental de forma que as práticas se estendam da escola para as residências e perpetuem-se por toda a vida. Além do mais, queremos avaliar os reflexos da participação dos atores envolvidos no retorno sustentável para o próprio IFRN e sua comunidade, sobretudo no controle ao desperdício de energia e recursos naturais.\n",
+      "edital": "edital 07/2015 - PIBIC-EM/CNPq",
+      "ano": 2015,
+      "coordenador": "Edmilson Barbalho Campos Neto",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "grupo e Estudos em Sistemas Computacionais",
+      "Campus": "ZN",
+      "periodo": "De 01/08/2015 a 31/08/2016"
+   },
+   {
+"id":"3",
+      "titulo": "AGENTES SEMÂNTICOS: Estendendo a efetividade de agentes de software pelo tratamento de significância dos dados  ",
+      "resumo": "Este projeto de pesquisa e desenvolvimento estende os resultados obtidos no projeto AGENTES INTELIGENTES: novas bases para o desenvolvimento de Aplicações Web e Internet das Coisas (IoT), aprovado no edital IFRN-PIBITI 2014. Mais especificamente este projeto trata de agentes semânticos, assim considerados aqueles agentes de software que tem a capacidade de tratar o significado dos dados, o que lhe proporciona maior inteligência e autonomia do que seus pares que não atendem esse requisito. A relevância desta investigação é ampliada pela disponibilidade crescente de conteúdo na internet, que dobra a cada ano, e a dificuldade em tratá-los adequadamente. Embora agentes semânticos possam ser aplicados em diferentes contextos, neste projeto existe particular interesse em explorar dados sobre sustentabilidade, em especial sobre indicadores de sustentabilidade que possam ser associados a modelos de cidades inteligentes (Smart Cities).        \n",
+      "edital": "edital 06/2015 - PIBITI/CNPq",
+      "ano": 2015,
+      "coordenador": "Claudia Maria Fernandes Araujo Ribeiro",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Núcleo de Desenvolvimento de Software",
+      "Campus": "CNAT",
+      "periodo": "De 01/08/2015 a 31/07/2016"
+   },
+   {
+"id":"4",
+      "titulo": "Linha de Processos de Software de Acesso Público",
+      "resumo": "O desenvolvimento do projeto envolve as seguintes atividades: (i) coletar, junto as empresas de desenvolvimento de software selecionadas, as suas necessidades específicas com relação aos processos aplicados em seus projetos de desenvolvimento de softwares; (ii) definição da linha de processos de software, decorrente da compilação dos resultados das necessidades reveladas pelas empresas que aceitarem colaborar com o projeto; (iii) modelagem da referida linha de processos de software com a ferramenta EPF Composer; (iv) implementação do mecanismo de derivação, a partir do EPF Composer, de um processo de desenvolvimento de software customizado, dada a seleção de um conjunto características necessárias ao mesmo; (v) integrar o processo de derivação desenvolvido com o sistema Web a ser disponibilizado ao público geral; (vi) desenvolver e testar o sistema Web que disponibilizará ao público geral o acesso a linha de processos de software desenvolvida nestes projeto e (vii) realizar entrevistas com os representantes das empresas selecionadas para realizar os testes com o sistema desenvolvido, identificando como se deu o uso desse sistema e a aplicação do processo gerado automaticamente pelo sistema.\n",
+      "edital": "edital 10/2015 - PROPI/IFRN",
+      "ano": 2015,
+      "coordenador": "Fellipe Araujo Aleixo",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Núcleo de Desenvolvimento de Software",
+      "Campus": "CNAT",
+      "periodo": "De 01/09/2015 a 30/09/2016"
+   },
+  {
+"id":"5",
+      "titulo": "Avaliação do impacto da digitalização de campanhas informativas de saúde para prevenção de doenças",
+      "resumo": "Campanhas informativas de saúde são um importante instrumento no combate e prevenção de doenças, sendo um forte aliado do serviço de atenção básica nas unidades básicas de saúde (UBS) e programas de saúde da família (PSF). Todavia, a falta de acesso a essas campanhas, muitas vezes impressas, dificultam a divulgação das informações contidas nessas campanhas. Logo, se faz necessário que a educação para a saúde por meio da divulgação de campanhas informativas acompanhe a rápida evolução tecnológica que vivemos, de modo a aproveitar todo o potencial que essas ações poderiam ter dentro da sociedade de forma digital. Desse modo, o uso das novas tecnologias disponíveis para a uma educação e divulgação de conteúdos de maneiras mais eficientes, deve ser analisado e implantado no sistema público de saúde. Nesse sentido, este projeto propõe realizar a digitalização de campanhas informativas de saúde com o objetivo de avaliar o potencial de divulgação dessas campanhas digitais ante ao tradicional modelo de campanhas impressas. Pretende-se com isso fortalecer as políticas de promoção a saúde dos municípios alvo desta pesquisa aplicada, contribuindo com o trabalho dos agentes de saúde e usuários das UBSs e PSFs destes municípios. O acesso a essas campanhas digitais se dará por meio de uma plataforma web interativa a ser divulgada nas salas de espera das UBSs dos municípios. Com isso, espera-se fomentar uma maior educação na saúde e uma comunicação mais eficaz para as campanhas de saúde desses munícipios, direcionadas aos pacientes, família, comunidade e demais usuário do Sistema Único de Saúde (SUS).\n",
+      "edital": "edital 08/2015 - Desenvolvimento  de Projetos de Pesquisa/IFRN",
+      "ano": 2015,
+      "coordenador": "Edmilson Barbalho Campos Neto",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "grupo e Estudos em Sistemas Computacionais",
+      "Campus": "ZN",
+      "periodo": "De 01/08/2015 a 30/04/2016"
+   },
+   {
+"id":"6",
+      "titulo": "Investigação sobre Modelos Híbridos que Combinam Técnicas Computacionais e Habilidades Humanas: Human-based Computation (HBC)",
+      "resumo": "Este projeto de pesquisa em computação aplicada dedica-se a investigar abordagens para modelos de computação que são auxiliadas por tarefas humanas, denominados Human-based Computation (HBC). Mais especificamente, este projeto dedica-se a concepção, desenvolvimento e validação de um modelo para semantic crowdsourcing game (SCG). Esta categoria de aplicação pode ser aplicada em diferentes contextos, notadamente naqueles que necessitam de intervenção humana, geralmente para atividades de avaliação subjetiva. Neste projeto especificamente, tal auxílio será direcionado ao engajamento de pessoas, na qualificação de uma base de conhecimento sobre ações sustentáveis.\n",
+      "edital": "edital 10/2015 - PROPI/IFRN",
+      "ano": 2015,
+      "coordenador": "Claudia Maria Fernandes Araujo Ribeiro",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Núcleo de Desenvolvimento de Software",
+      "Campus": "CNAT",
+      "periodo": "De 01/09/2015 a 31/03/2016"
+   },
+ {
+"id":"7",
+      "titulo": "Desenvolvimento do Sistema Tecnológico de Inovação no Gerenciamento de Eventos",
+      "resumo": "O Sistema Tecnológico de Inovação no Gerenciamento de Eventos (TIGE) consiste em um aplicativo com interfaces web e móvel, a ser desenvolvido por uma equipe de alunos do IFRN, Campus Parnamirim. O sistema, de modo geral, possui o objetivo de integrar o usuário em uma rede de eventos, tais como palestras, conferências, feiras tecnológicas etc., de forma que o usuário possua informações acerca do evento e ao mesmo tempo interaja com outros participantes, por meio do aplicativo.\n",
+      "edital": "edital 12/2015 - PROPI/IFRN-Fluxo Contínuo",
+      "ano": 2015,
+      "coordenador": "Givanaldo Rocha de Souza",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Grupo de Estudos em Computação Aplicada",
+      "Campus": "PAR",
+      "periodo": "De 01/09/2015 a 31/03/2016"
+   },
+   {
+"id":"8",
+      "titulo": "Sistema de Gestão Acadêmica para Escolas Municipais",
+      "resumo": "Atualmente o mundo está dominado pela informação, as empresas procuram a tecnologia da informação para permanecerem cada vez mais competitivas e organizadas, pois a informatização nos proporciona tomar decisões rápidas com dados precisos no momento correto. O objetivo deste projeto consiste em um desenvolvimento de software para gestão escolar, com o intuito de atender as necessidades das escolas municipais de Parelhas, referente à gerência de matrícula e dados escolares. \n",
+      "edital": "edital 10/2015 - PROPI/IFRN",
+      "ano": 2015,
+      "coordenador": "Marcal Jose de Oliveira Morais Ii",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "grupo em Informática Aplicada",
+      "Campus": "PAAS",
+      "periodo": "De 01/09/2015 a 31/03/2016"
+   },
+   {
+"id": "9",
+      "titulo": "Testes de software baseado em modelo formal",
+      "resumo": "Este projeto busca aprimorar estratégias de desenvolvimento de testes para verificação de software crítico. Sistemas usados em transportes de pessoas, controles financeiros, equipamentos médicos e militares exigem uma certificação rigorosa do software. Planjamos aperfeiçoar duas estratégias de testes, uma simplificada criando automaticamente casos de testes aleatoriamente e uma estratégia baseada em restrições, a qual é muito eficaz e usada na comunidade de desenvolvimento de software crítico. Os testes explorados neste trabalho aumentam os critérios de confiabilidade do software e buscam atender requisitos rigorosos de certificação de software.\n",
+      "edital": "edital 12/2015 - PROPI/IFRN-Fluxo Contínuo",
+      "ano": 2015,
+      "coordenador": "Valerio Gutemberg de Medeiros Junior",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Grupo de Estudos em Computação Aplicada",
+      "Campus": "PAR",
+      "periodo": "De 28/08/2015 a 31/03/2017"
+   },
+   {
+"id":"10",
+      "titulo": "Gerenciamento Dinâmico de Recursos de Rede Baseado em QoE sob Infraestrutura SDN",
+      "resumo": "A Internet apresenta um cenário evolutivo, onde são integrados, de maneira gradativa, novos serviços e diferentes tipos de equipamentos, de modo que esta convergência seja capaz de abranger cada vez mais o dia-a-dia do usuário. Entre os serviços integrados, os que estão em maior evidência atualmente são os de multimídia (e.g. video streaming, VoIP etc.), cujo crescente volume de dados representa a maior parte do total de tráfego na Internet nos dias atuais.  Desse modo, a exigência do usuário no tocante à qualidade do conteúdo recebido também aumenta, demandando novas estratégias de gerenciamento sobre os finitos recursos da rede, onde devem ser considerados, dentre outros fatores, diversas situações desfavoráveis e de instabilidade como, por exemplo, a queda de um enlace ou a redução dos recursos disponíveis, necessitando uma reorganização na alocação de recursos. Baseado nessa perspectiva, este trabalho propõe um estudo avançado sobre a relação entre Qualidade de Serviço (Quality of Service - QoS) e Qualidade de Experiência (Quality of Experience - QoE), propondo, desse modo, um mecanismo de gerência dinâmica dos recursos da rede baseado nos níveis de QoE, bem como uma solução para adaptar dinamicamente os parâmetros de uma transmissão multimídia (i.e. codec, bitrate etc.), a fim de reduzir o impacto da saturação de recursos na satisfação do usuário.",
+      "edital": "edital 06/2016 - Desenvolvimento de Projetos de Pesquisa",
+      "ano": 2016,
+      "coordenador": "Felipe Sampaio Dantas da Silva",
+      "area": "CIÊNCIA DA COMPUTAÇÃO (CIÊNCIAS EXATAS E DA TERRA)",
+      "grupo": "Núcleo de Tecnologia em Telemática - NUTEL",
+      "Campus": "CNAT",
+      "periodo": "De 17/08/2016 a 18/05/2017"
+   }
+   ]

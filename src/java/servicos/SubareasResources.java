@@ -36,13 +36,13 @@ public class SubareasResources{
     public SubareasResources() {
         subareas = new ArrayList<>();
         subAreas = new ArrayList<>();
-        subareas.add(new Subarea(0, 0, "Projeto 00"));
-        subareas.add(new Subarea(1, 0, "Projeto 01"));
-        subareas.add(new Subarea(2, 0, "Projeto 02"));
-        subareas.add(new Subarea(3, 0, "Projeto 03"));
-        subareas.add(new Subarea(4, 0, "Projeto 04"));
-        subareas.add(new Subarea(5, 0, "Projeto 05"));
-        subareas.add(new Subarea(6, 0, "Projeto 06"));
+        subareas.add(new Subarea(0, 0, "Subarea 00"));
+        subareas.add(new Subarea(1, 0, "Subarea 01"));
+        subareas.add(new Subarea(2, 0, "Subarea 02"));
+        subareas.add(new Subarea(3, 1, "Subarea 03"));
+        subareas.add(new Subarea(4, 1, "Subarea 04"));
+        subareas.add(new Subarea(5, 1, "Subarea 05"));
+        subareas.add(new Subarea(6, 1, "Subarea 06"));
     }
 
     /**

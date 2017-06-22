@@ -29,10 +29,14 @@ public class AreasResources {
     
     public AreasResources() {
         areas = new ArrayList<>();
-        areas.add(new Area(0, "Area0"));
-        areas.add(new Area(1, "Area1"));
-        areas.add(new Area(2, "Area2"));
-        areas.add(new Area(3, "Area3"));
+        areas.add(new Area(0, "Ciências Sociais Aplicadas"));
+        areas.add(new Area(1, "Ciências Exatas e da Terra"));
+        areas.add(new Area(2, "Engenharias"));
+        areas.add(new Area(3, "Linguística, Letras e Artes"));
+        areas.add(new Area(4, "Ciências Agrárias"));
+        areas.add(new Area(5, "Ciências Biológicas"));
+        areas.add(new Area(6, "Ciências Humanas"));
+        areas.add(new Area(7, "Ciências da Saúde"));
     }
     
     @GET

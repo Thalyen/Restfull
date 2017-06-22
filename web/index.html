@@ -11,6 +11,230 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="id01"></div>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+var url = "areas.txt";
+
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+        var myArr = JSON.parse(this.responseText);
+        myFunction(myArr);
+    }
+};
+xmlhttp.open("GET", url, true);
+xmlhttp.send();
+
+function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i++) {
+        out += '<a href="' + arr[i].nome + '">' +
+        arr[i].nome + '</a><br>';
+    }
+    document.getElementById("id01").innerHTML = out;
+}
+</script>
     </body>
 </html>
+
+<!--
+
+/*
+var idRest = "1";
+var areaRest = "0";
+var urlBase = "http://localhost:8080/PortfolioWS/webresources/";
+
+var Area = function (id, nome) {
+    this.id = id;
+    this.nome = nome;
+};
+
+function getAreas() {
+    $(document).ready(function () {
+        $.get(urlBase.concat("areas/"), function (data) {
+
+            var area = [];
+            data.forEach(function (o, index) {
+                var i = new Area(o.id, o.nome);
+                area.push(i);
+            });
+
+            area.forEach(function (o, index) {
+
+                var li = document.createElement('li');
+
+                if (index % 2 === 0) {
+                    li.className = "list-group-item list-group-item-info";
+                } else {
+                    li.className = "list-group-item";
+                }
+
+                li.id = o.id;
+                li.name = o.nome;
+                li.innerHTML = o.nome;
+                li.onclick = function() {
+                    idRest = "0";
+                    areaRest = "li.id";
+                    window.location.href="http://localhost:8080/Catalogo/subareas.html";
+                };
+
+                document.getElementById("lista").appendChild(li);
+            });
+        });
+    });
+}
+
+function getSubareas() {
+    $(document).ready(function () {
+        $.get(urlBase.concat("subareas/", idRest.toString()), function (data) {
+            document.getElementById("subarea").innerHTML= areaRest;
+            
+            var area = [];
+            data.forEach(function (o, index) {
+                var i = new Area(o.id, o.nome);
+                area.push(i);
+            });
+
+            area.forEach(function (o, index) {
+
+                var li = document.createElement('li');
+
+                if (index % 2 === 0) {
+                    li.className = "list-group-item list-group-item-info";
+                } else {
+                    li.className = "list-group-item";
+                }
+
+                li.id = o.id;
+                li.name = o.nome;
+                li.innerHTML = o.nome;
+                li.onclick = function () {
+                    getSubareas(o.id);
+                };
+                document.getElementById("lista").appendChild(li);
+            });
+        });
+        
+    });
+   //alert(urlBase.concat(idRest.toString()));
+}
+
+//____________________________________________Anotações__________________________________________
+
+ // foreach funcional --- subareas.stream().filter((area) -> (String.valueOf(area.getIdArea()).equals(id))).forEachOrdered((area) -> {
+ 
+   /*   criar form
+            var form = document.createElement('form');
+            form.action = "http://localhost:8080/Catalogo/subareas.html";
+            form.method = "get";
+            form.onsubmit = getSubareas();
+            document.getElementById("form").appendChild(button);*/
+            
+            // Localiza nossa div dentro do HTML
+var div = document.getElementById('texto');
+ 
+// Utiliza um laço for ... in
+for( var propriedade in dadosJSON ){
+ // Adiciona a propriedade no texto da div
+ div.innerHTML += propriedade + ' = ';
+ 
+ // Verifica se a propriedade é um objeto
+ if (typeof dadosJSON[propriedade] !== 'object') {
+ // Adiciona o valor da propriedade no texto da div
+ div.innerHTML += dadosJSON[propriedade] + '<br>';
+ } else { 
+ // Se for objeto, acessa o valor da maneira alterativa e 
+ // adiciona na div
+ div.innerHTML += '<br>';
+ div.innerHTML += 'Desenvolver: ' + dadosJSON[propriedade][0].Desenvolver;
+ div.innerHTML += '<br>';
+ div.innerHTML += 'Ler: ' + dadosJSON[propriedade][1].Ler;
+ div.innerHTML += '<br>';
+ div.innerHTML += 'Beber: ' + dadosJSON[propriedade][2].Beber;
+ }
+} 
+
+    
+    
+    
+var obj;
+
+    
+
+function getAreas() {
+    var xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+            myObj = JSON.parse(this.responseText);
+
+            myObj.forEach(function (o, index) {
+
+                var li = document.createElement('li');
+
+                if (index % 2 === 0) {
+                    li.className = "list-group-item list-group-item-info";
+                } else {
+                    li.className = "list-group-item";
+                }
+
+                li.id = o.id;
+                li.name = o.nome;
+                li.innerHTML = o.nome;
+                li.onclick = function () {
+                    var novaArea = myObj[parseInt(li.id)];
+                   sessionStorage.setItem('area', novaArea);
+                   //getSubareas(obj);
+                   window.location.href = "http://localhost:8080/Catalogo/subareas.html";
+                };
+                document.getElementById("lista").appendChild(li);
+            });
+        }
+    };
+    xmlhttp.open("GET", "http://localhost:8080/PortfolioWS/webresources/areas", true);
+    xmlhttp.send();
+}
+
+function getSubareas() {
+var data = sessionStorage.getItem('area');
+data = parseArea(data);
+    //funciona
+    var xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+            myObj2 = JSON.parse(this.responseText);
+
+            myObj2.forEach(function (o, index) {
+
+                    var li = document.createElement('li');
+
+                    if (index % 2 === 0) {
+                        li.className = "list-group-item list-group-item-info";
+                    } else {
+                        li.className = "list-group-item";
+                    }
+
+                    li.id = o.id;
+                    li.name = o.nome;
+                    li.innerHTML = o.nome;
+                    li.onclick = function () {
+                       window.location.href = "http://localhost:8080/Catalogo/projetos.html";
+                    };
+                document.getElementById("lista").appendChild(li);
+            });
+           document.getElementById("subarea").innerHTML = data.id;
+        }
+    };
+    var url = "http://localhost:8080/PortfolioWS/webresources/subareas/";//.concat(obj.id);
+    xmlhttp.open("GET",url, true);
+    xmlhttp.send();
+    
+}
+
+function setTitulo(){
+document.getElementById("subarea").innerHTML = "Subarea";
+}
+-->
